@@ -10,4 +10,18 @@ ans =
 
      0     0
 
+
+
+>> z = 7:3:1
+
+z =
+
+  1×0 empty double row vector
+
+>> size(z)
+
+ans =
+
+     1     0
+
 >> 
