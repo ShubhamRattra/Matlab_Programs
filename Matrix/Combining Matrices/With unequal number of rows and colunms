@@ -1,0 +1,33 @@
+>> B1 = [1 ; 1]
+
+B1 =
+
+     1
+     1
+
+>> B2 = [2 2 ; 2 2]
+
+B2 =
+
+     2     2
+     2     2
+
+>> B3 = [3 3 3 ; 3 3 3]
+
+B3 =
+
+     3     3     3
+     3     3     3
+
+>> [B1 B2 B3]
+
+ans =
+
+     1     2     2     3     3     3
+     1     2     2     3     3     3
+
+>> [B1 ; B2 ; B3]
+Error using vertcat
+Dimensions of arrays being concatenated are not consistent.
+ 
+>> 
