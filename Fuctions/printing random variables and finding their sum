@@ -1,0 +1,22 @@
+#Editor
+ 
+ function [a,s] = myRand(low,high)
+    a = low+rand(3,4)*(high-low);
+    v = a(:);
+    s = sum(v);
+ end
+ 
+ 
+#Command window
+
+ >> [x,ss] = myRand(2,3)
+
+ x =
+    2.6948    2.0344    2.7655    2.4898
+    2.3171    2.4387    2.7952    2.4456
+    2.9502    2.3816    2.1869    2.6463
+
+ ss =
+   30.1462
+   
+ >> 
