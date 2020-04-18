@@ -1,0 +1,27 @@
+#Editor
+ 
+ function [a,s] = myRand(low,high)
+    a = low+rand(3,4)*(high-low);
+    s = sumAllElements(a);
+    
+function summa = sumAllElements(M)
+    v = M(:);
+    summa = sum(v);
+            
+            
+#Command window
+ 
+ >> [x,ss] = myRand(2,3)
+
+x =
+
+    2.8147    2.9134    2.2785    2.9649
+    2.9058    2.6324    2.5469    2.1576
+    2.1270    2.0975    2.9575    2.9706
+
+
+ss =
+
+   31.3668
+
+>> 
