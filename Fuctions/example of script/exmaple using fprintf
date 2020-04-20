@@ -1,0 +1,13 @@
+#Editor
+
+fprintf('This ends the lesson\n');
+pause(5);
+quit;
+
+ 
+#Comand window
+
+>> edit endLesson
+>> endLesson
+This ends the lesson
+ 
