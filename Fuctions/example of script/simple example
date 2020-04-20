@@ -1,0 +1,17 @@
+#Editor
+
+ y = x + 3
+ z = 2*y;
+ 
+ 
+#Command window
+
+ >> edit example_scrpt
+ >> x = 5;
+ >> example_scrpt
+
+ y =
+
+     8
+
+ >> 
