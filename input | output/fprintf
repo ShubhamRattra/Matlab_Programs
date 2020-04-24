@@ -1,0 +1,8 @@
+>> fprintf('this is lesson 5\n')
+this is lesson 5
+>> fprintf('this is lesson 5')
+this is lesson 5
+>> fprintf('this is lesson 5\n\n')
+this is lesson 5
+
+>> 
