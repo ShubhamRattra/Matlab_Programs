@@ -1,0 +1,15 @@
+#Editor
+
+function check_out(n,price)
+   total = n*price; 
+   fprintf('%d item at %.2f each \n total = $%5.2f\n',n,price,total);
+end
+
+
+#Command window
+
+>> edit check_out
+>> check_out(3 , 2.71)
+3 item at 2.71 each 
+ total = $ 8.13
+>> 
