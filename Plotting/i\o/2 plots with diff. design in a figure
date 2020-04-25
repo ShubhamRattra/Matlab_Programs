@@ -3,3 +3,12 @@
 >> figure
 >> plot(x1,y1,'r',x2,y2,'k:')              //where r is for red   k is for black  and : is for dotted lines
 >> 
+   
+   
+   OR
+
+
+>> plot(x1,y1,'r')
+>> hold on
+>> plot(x2,y2,'k:')
+>> hold off
