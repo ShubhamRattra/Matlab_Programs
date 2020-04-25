@@ -1,0 +1,5 @@
+>> x1 = 0:0.1:2*pi; y1 = sin(x1);
+>> x2 = pi/2:0.1:3*pi; y2 = cos(x2);
+>> figure
+>> plot(x1,y1,'r',x2,y2,'k:')              //where r is for red   k is for black  and : is for dotted lines
+>> 
