@@ -8,3 +8,40 @@ elseif x >= y && y >= z
 else
     a = 0;
 end
+
+
+#Command window
+
+>> edit order3
+>> order3(1,2,3)
+>> order3(1,2,3)
+
+ans =
+
+     1
+
+>> order3(1,2,2)
+
+ans =
+
+     1
+
+>> order3(3,2,1)
+
+ans =
+
+    -1
+
+>> order3(3,2,2)
+
+ans =
+
+    -1
+
+>> order3(1,3,2)
+
+ans =
+
+     0
+
+>> 
