@@ -1,0 +1,21 @@
+#Editor
+
+function guess_my_number(x)
+ if x == 27
+    fprintf('Congrats! you guessed the number.\n');
+ elseif x < 27
+     fprintf('Too small, pls try again')
+ else
+    fprintf('Too big, pls try again')
+ end
+
+
+#Command window
+
+>> guess_my_number(12)
+Too small, pls try again
+>> guess_my_number(36)
+Too big, pls try again
+>> guess_my_number(27)
+Congrats! you guessed the number.
+>> 
