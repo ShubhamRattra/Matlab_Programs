@@ -1,0 +1,16 @@
+#Editor
+
+  function guess_my_number(x)
+   if x==2
+      fprintf('Congrats! you guessed the number.\n');
+   else
+      fprintf('No not right,try again')
+   end
+ 
+#Command window
+
+>> guess_my_number(3)
+No not right,try again
+>> guess_my_number(2)
+Congrats! you guessed the number.
+>> 
