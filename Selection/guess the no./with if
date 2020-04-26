@@ -1,0 +1,15 @@
+#Editor
+
+  function guess_my_number(x)
+   if x==2
+      fprintf('Congrats! you guessed the number.\n');
+   end
+ 
+ 
+#Command window
+
+>> edit guess_my_number
+>> guess_my_number(3)
+>> guess_my_number(2)
+Congrats! you guessed the number.
+>>    
