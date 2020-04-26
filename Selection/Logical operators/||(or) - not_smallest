@@ -1,0 +1,32 @@
+#Editor
+
+function a = not_smallest(x,y,z)
+if x >= y || x >= z
+    a = 1;
+else
+    a = 0;
+end
+
+
+#Command window
+
+>> edit not_smallest
+>> not_smallest(3,2,1)
+
+ans =
+
+     1
+
+>> not_smallest(-1,2,1)
+
+ans =
+
+     0
+
+>> not_smallest(2,2,1)
+
+ans =
+
+     1
+
+>> 
