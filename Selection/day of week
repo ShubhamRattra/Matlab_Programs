@@ -1,0 +1,45 @@
+#Editor
+
+ function day_of_week(n)
+if n == 1
+    fprintf('Sunday, ');
+    day_type = 2;
+elseif n == 2
+    fprintf('Monday, ');
+    day_type = 1;
+elseif n == 3
+    fprintf('Tuesday, ');
+    day_type = 1;
+elseif n == 4
+    fprintf('Wednssday, ');
+    day_type = 1;
+elseif n == 5
+    fprintf('Thursday, ');
+    day_type = 1;
+elseif n == 6
+    fprintf('Friday, ');
+    day_type = 1;
+elseif n == 7
+    fprintf('Saturday, ');
+    day_type = 2;
+else
+    fprintf('number must be from 1-7.\n');
+    return
+end
+if day_type == 1
+    fprintf('which is a week day.\n');
+else
+    fprintf('which is a weekend.\n');
+end
+
+
+#Command window
+
+ >> edit day_of_week
+ >> day_of_week(1)
+Sunday, which is a weekend.
+>> day_of_week(3)
+Tuesday, which is a week day.
+>> day_of_week(9)
+number must be from 1-7.
+>> 
