@@ -1,0 +1,24 @@
+#Editor
+
+function if_test(x)
+    if x
+        fprintf('%d is true!\n',x);
+    else
+        fprintf('%d is false!\n',x);
+end
+
+
+#Command window
+
+>> edit if_test
+>> if_test(0)
+0 is false!
+>> if_test(1)
+1 is true!
+>> if_test(10)
+10 is true!
+>> if_test(-1)
+-1 is true!
+>> if_test(0.00001)
+1.000000e-05 is true!
+>> 
