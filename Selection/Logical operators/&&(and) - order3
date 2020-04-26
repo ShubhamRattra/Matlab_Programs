@@ -14,7 +14,6 @@ end
 
 >> edit order3
 >> order3(1,2,3)
->> order3(1,2,3)
 
 ans =
 
