@@ -1,0 +1,55 @@
+#Editor
+
+function [table summa] = multable(n,m)
+if nargin<2
+    m = n;
+end
+
+table = (1:n)'*(1:n);
+
+if nargout == 2
+    summa = sum(table(:));
+end
+
+
+#Command line
+
+>> edit multable.m
+>> multable(3,4)
+
+ans =
+
+     1     2     3     4
+     2     4     6     8
+     3     6     9    12
+
+>> [table s] = multable(3,4)
+
+table =
+
+     1     2     3     4
+     2     4     6     8
+     3     6     9    12
+
+
+s =
+
+    60
+
+>> table = multable(5)
+
+table =
+
+     1     2     3     4     5
+     2     4     6     8    10
+     3     6     9    12    15
+     4     8    12    16    20
+     5    10    15    20    25
+
+>> multable(-3,-5)
+
+ans =
+
+     []
+
+>> 
