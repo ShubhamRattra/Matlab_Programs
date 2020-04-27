@@ -1,0 +1,53 @@
+#Editor
+
+function total = accumulate(n)
+persistent summa;
+if isempty(summa)
+    summa = n;
+else
+    summa = summa + n;    
+end
+total = summa;
+
+
+#Command window
+
+>> edit accumulate
+>> accumulate(3)
+
+ans =
+
+     3
+
+>> accumulate(5)
+
+ans =
+
+     8
+
+>> accumulate(10)
+
+ans =
+
+    18
+
+>> accumulate(-11)    
+
+ans =
+
+     7
+
+>> accumulate(-20)
+
+ans =
+
+   -13
+
+>> clear accumulate
+>> accumulate(17)
+
+ans =
+
+    17
+
+>> 
