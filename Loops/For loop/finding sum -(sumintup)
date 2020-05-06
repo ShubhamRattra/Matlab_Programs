@@ -1,0 +1,19 @@
+#Editor
+
+function sumintup(N)
+    total = 0;
+    for n = 1:N
+        total = total + n;
+    end
+  fprintf('Total equals %d\n',total);  
+end
+
+
+#Command window
+
+>> edit sumintup
+>> sumintup(5)
+Total equals 15
+>> sumintup(10)
+Total equals 55
+>> 
