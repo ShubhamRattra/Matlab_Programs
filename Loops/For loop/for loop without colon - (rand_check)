@@ -1,0 +1,25 @@
+#Editor
+
+function rand_check
+    N = 5;
+    list = rand(1,N);
+    for x = list
+        if x < 0.5
+            fprintf('Random number %f is large\n',x)
+        else
+            fprintf('Random number %f is small\n',x)
+        end
+    end
+end    
+
+
+#Command line
+
+>> edit rand_check
+>> rand_check
+Random number 0.814724 is small
+Random number 0.905792 is small
+Random number 0.126987 is large
+Random number 0.913376 is small
+Random number 0.632359 is small
+>> 
