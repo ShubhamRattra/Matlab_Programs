@@ -1,0 +1,35 @@
+#Code
+
+function [n total] = possum(limit)
+    total = 0;
+    n = 0;
+    while total <= limit
+        n = n + 1;
+        total = total + n;
+    end
+ fprintf('Sum: %d count: %d\n', total, n);
+    
+
+#Output
+
+>> edit possum
+>> possum(50)
+Sum: 55 count: 10
+
+ans =
+
+    10
+
+>> [a b] = possum(50)
+Sum: 55 count: 10
+
+a =
+
+    10
+
+
+b =
+
+    55
+
+>> 
