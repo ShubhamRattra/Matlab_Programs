@@ -1,0 +1,21 @@
+>> holmes = logical([1 -2 0 0 9.12 -2])
+
+holmes =
+
+  1×6 logical array
+
+   1   1   0   0   1   1
+
+>> r = randi(10,1,6)
+
+r =
+
+     9    10     2    10     7     1
+
+>> r(holmes)
+
+ans =
+
+     9    10     7     1
+
+>> 
