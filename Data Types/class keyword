@@ -25,3 +25,12 @@ ans =
     'double'
 
 >> 
+
+
+>> class('rat')
+
+ans =
+
+    'char'
+
+>> 
