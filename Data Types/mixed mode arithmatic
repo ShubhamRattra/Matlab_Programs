@@ -1,0 +1,49 @@
+>> pi_number = 3.1416
+
+pi_number =
+
+    3.1416
+
+>> pi_digits = '3.1416'
+
+pi_digits =
+
+    '3.1416'
+
+>> size(pi_number)
+
+ans =
+
+     1     1
+
+>> size(pi_digits)
+
+ans =
+
+     1     6
+
+>> class(pi_number)
+
+ans =
+
+    'double'
+
+>> class(pi_digits)
+
+ans =
+
+    'char'
+
+>> pi_number + 1
+
+ans =
+
+    4.1416
+
+>> pi_digits + 1
+
+ans =
+
+    52    47    50    53    50    55
+
+>> 
