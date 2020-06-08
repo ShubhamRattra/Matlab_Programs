@@ -1,0 +1,25 @@
+>> MOOC_title = 'MATLAB for smarties'
+
+MOOC_title =
+
+    'MATLAB for smarties'
+
+>> findstr(MOOC_title,'LAB')
+
+ans =
+
+     4
+
+>> findstr(MOOC_title,'lab')
+
+ans =
+
+     []
+
+>> findstr(MOOC_title,'r')
+
+ans =
+
+    10    15
+
+>> 
