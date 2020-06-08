@@ -27,6 +27,14 @@ ans =
 >> 
 
 
+>> class( 1<2 )
+
+ans =
+
+    'logical'
+
+>> 
+
 >> class('rat')
 
 ans =
