@@ -1,0 +1,47 @@
+>> x = 23
+
+x =
+
+    23
+
+>> class(x)
+
+ans =
+
+    'double'
+
+>> class(0)
+
+ans =
+
+    'double'
+
+>> class(sqrt(-1))    
+
+ans =
+
+    'double'
+
+>> y = 1:8
+
+y =
+
+     1     2     3     4     5     6     7     8
+
+>> rng(0); z = rand(3,4)
+
+z =
+
+    0.8147    0.9134    0.2785    0.9649
+    0.9058    0.6324    0.5469    0.1576
+    0.1270    0.0975    0.9575    0.9706
+
+>> whos
+  Name      Size            Bytes  Class     Attributes
+
+  ans       1x6                12  char                
+  x         1x1                 8  double              
+  y         1x8                64  double              
+  z         3x4                96  double              
+
+>> 
