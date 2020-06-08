@@ -29,4 +29,28 @@ m =
   n         1x1                 1  int8                
   x         1x1                 4  single              
 
+>> k = uint8(500) 
+
+k =
+
+  uint8
+
+   255
+
+>> k = uint8(256)
+
+k =
+
+  uint8
+
+   255
+
+>> k = uint8(-1)
+
+k =
+
+  uint8
+
+   0
+
 >> 
