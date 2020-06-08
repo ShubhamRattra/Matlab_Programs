@@ -1,0 +1,77 @@
+>> intmax("int8")
+
+ans =
+
+  int8
+
+   127
+
+>> intmin("int8")
+
+ans =
+
+  int8
+
+   -128
+
+>> intmax("int16")
+
+ans =
+
+  int16
+
+   32767
+
+>> intmin("int16")
+
+ans =
+
+  int16
+
+   -32768
+
+>> intmax("uint16")
+
+ans =
+
+  uint16
+
+   65535
+
+>> intmin("uint16")
+
+ans =
+
+  uint16
+
+   0
+
+>> realmax("double")
+
+ans =
+
+  1.7977e+308
+
+>> realmin("double")
+
+ans =
+
+  2.2251e-308
+
+>> realmax("single")
+
+ans =
+
+  single
+
+  3.4028e+38
+
+>> realmin("single")
+
+ans =
+
+  single
+
+  1.1755e-38
+
+>> 
