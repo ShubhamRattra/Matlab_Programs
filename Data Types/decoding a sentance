@@ -1,0 +1,25 @@
+>> message = 'let''s skip class today!'
+
+message =
+
+    'let's skip class today!'
+
+>> code = double(message)
+
+code =
+
+   108   101   116    39   115    32   115   107   105   112    32    99   108    97   115   115    32   116   111   100    97   121    33
+
+>> secret = char(code + 3)
+
+secret =
+
+    'ohw*v#vnls#fodvv#wrgd|$'
+
+>> char(secret - 3)
+
+ans =
+
+    'let's skip class today!'
+
+>> 
