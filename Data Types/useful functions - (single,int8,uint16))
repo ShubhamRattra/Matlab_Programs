@@ -1,0 +1,32 @@
+>> x = single(98.76)
+
+x =
+
+  single
+
+   98.7600
+
+>> n = int8(-16)
+
+n =
+
+  int8
+
+   -16
+
+>> m = uint16(1234)
+
+m =
+
+  uint16
+
+   1234
+
+>> whos
+  Name      Size            Bytes  Class     Attributes
+
+  m         1x1                 2  uint16              
+  n         1x1                 1  int8                
+  x         1x1                 4  single              
+
+>> 
