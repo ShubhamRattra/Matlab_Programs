@@ -1,0 +1,11 @@
+>> fprintf('The area of circle is');
+The area of circle is
+>> sprintf('The area of circle is');
+>> str = sprintf('The area of circle is');
+>> str
+
+str =
+
+    'The area of circle is'
+
+>> 
