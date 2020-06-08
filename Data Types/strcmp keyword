@@ -1,0 +1,29 @@
+>> MOOC_title
+
+MOOC_title =
+
+    'MATLAB for smarties'
+
+>> lang = 'MATLAB'
+
+lang =
+
+    'MATLAB'
+
+>> strcmp(MOOC_title, lang)
+
+ans =
+
+  logical
+
+   0
+
+>> strcmp(MOOC_title(1:6), lang)
+
+ans =
+
+  logical
+
+   1
+
+>> 
