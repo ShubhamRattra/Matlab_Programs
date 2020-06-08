@@ -1,0 +1,16 @@
+#Editor
+
+function char_codes
+    for ii = 33:126
+        fprintf('%s',ii);
+    end
+    fprintf('\n');
+end
+
+
+#Command Window
+
+>> edit char_codes
+>> char_codes
+!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+>> 
