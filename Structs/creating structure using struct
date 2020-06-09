@@ -1,0 +1,11 @@
+>> course = struct('Area','ECE','Title','Intro to MATLAB','weeks',9)
+
+course = 
+
+  struct with fields:
+
+     Area: 'ECE'
+    Title: 'Intro to MATLAB'
+    weeks: 9
+
+>> 
