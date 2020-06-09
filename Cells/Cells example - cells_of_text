@@ -1,0 +1,56 @@
+#Editor
+
+page{1} = 'You could find him on the fields';
+page{2} = 'Tall,dark hair';
+page{3} = 'They said he';
+page{4} = 'catch a smile';
+page{5} = 'on Big john';
+
+fprintf('\n');
+for ii = 1:length(page)
+    fprintf('%s\n',page{ii});
+end
+fprintf('\n');
+
+#Command Window
+
+>> edit cells_of_text
+>> cells_of_text
+
+You could find him on the fields
+Tall,dark hair
+They said he
+catch a smile
+on Big john
+
+>> whos
+  Name      Size            Bytes  Class     Attributes
+
+  ii        1x1                 8  double              
+  page      1x5               684  cell                
+
+>> page{1}
+
+ans =
+
+    'You could find him on the fields'
+
+>> class(page)
+
+ans =
+
+    'cell'
+
+>> class(page{1})
+
+ans =
+
+    'char'
+
+>> size(page{1})
+
+ans =
+
+     1    32
+
+>> 
