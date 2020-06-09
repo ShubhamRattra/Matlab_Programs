@@ -1,0 +1,123 @@
+>> account.number = 1234567
+
+account = 
+
+  struct with fields:
+
+    number: 1234567
+
+>> account.balance = 5000
+
+account = 
+
+  struct with fields:
+
+     number: 1234567
+    balance: 5000
+
+>> account.owner.name = shubham
+Unrecognized function or variable 'shubham'.
+ 
+>> account.owner.name = 'shubham'
+
+account = 
+
+  struct with fields:
+
+     number: 1234567
+    balance: 5000
+      owner: [1×1 struct]
+
+>> account.owner.email = 'shubham@github.com'
+
+account = 
+
+  struct with fields:
+
+     number: 1234567
+    balance: 5000
+      owner: [1×1 struct]
+
+>> class(account)
+
+ans =
+
+    'struct'
+
+>> class(account.number)
+
+ans =
+
+    'double'
+
+>> class(account.name)
+Reference to non-existent field 'name'.
+ 
+>> account.owner
+
+ans = 
+
+  struct with fields:
+
+     name: 'shubham'
+    email: 'shubham@github.com'
+
+>> acount(2).number = 7654321
+
+acount = 
+
+  1×2 struct array with fields:
+
+    number
+
+>> account(2).name = 'Joe'
+
+account = 
+
+  1×2 struct array with fields:
+
+    number
+    balance
+    owner
+    name
+
+>> account(2).balane = 1000
+
+account = 
+
+  1×2 struct array with fields:
+
+    number
+    balance
+    owner
+    name
+    balane
+
+>> account(1)
+
+ans = 
+
+  struct with fields:
+
+     number: 1234567
+    balance: 5000
+      owner: [1×1 struct]
+       name: []
+     balane: []
+
+>> account(1).owner.name
+
+ans =
+
+    'shubham'
+
+>> account(2).owner.name
+Dot indexing is not supported for variables of this type.
+ 
+>> length(account(1).owner.name)
+
+ans =
+
+     7
+
+>> 
