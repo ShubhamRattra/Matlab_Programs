@@ -1,0 +1,61 @@
+>> account.owner.name = 'Joe'
+
+account = 
+
+  struct with fields:
+
+    owner: [1×1 struct]
+
+>> account.owner.email = 'Joe@mail.com'
+
+account = 
+
+  struct with fields:
+
+    owner: [1×1 struct]
+
+>> account.owner.age = 21
+
+account = 
+
+  struct with fields:
+
+    owner: [1×1 struct]
+
+>> account.owner
+
+ans = 
+
+  struct with fields:
+
+     name: 'Joe'
+    email: 'Joe@mail.com'
+      age: 21
+
+>> isfield(account.owner.age)
+Error using isfield
+Not enough input arguments.
+ 
+>> isfield(account.owner,'age')
+
+ans =
+
+  logical
+
+   1
+
+>> account(2).owner.name = 'Jon'
+
+account = 
+
+  1×2 struct array with fields:
+
+    owner
+
+>> isfield(account(2).owner,'age')
+
+ans =
+
+  logical
+
+   0
