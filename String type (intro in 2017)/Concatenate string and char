@@ -1,0 +1,17 @@
+>> str_1 = "Key"; str_2 = "board"; str_3 = "ing";
+>> [str_1, str_2, str_3]
+
+ans = 
+
+  1×3 string array
+
+    "Key"    "board"    "ing"
+
+>> char_1 = 'key'; char_2 = 'board'; char_3 = 'ing';
+>> [char_1, char_2, char_3]
+
+ans =
+
+    'keyboarding'
+
+>> 
