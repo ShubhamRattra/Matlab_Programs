@@ -9,3 +9,11 @@ s =
 ans = 
 
     "depend"
+
+>> extractBetween("independence","in","ence")
+
+ans = 
+
+    "depend"
+
+>> 
