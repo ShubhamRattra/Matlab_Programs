@@ -14,4 +14,10 @@ ans =
 
     'keyboarding'
 
+>> str_1 + str_2 + str_3
+
+ans = 
+
+    "Keyboarding"
+
 >> 
