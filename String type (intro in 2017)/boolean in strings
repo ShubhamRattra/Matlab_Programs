@@ -1,0 +1,9 @@
+>> string([12 -3 42 1 0] > [0 7 33 -1 0])
+
+ans = 
+
+  1×5 string array
+
+    "true"    "false"    "true"    "true"    "false"
+
+>> 
