@@ -1,0 +1,11 @@
+>> s = "independence"
+
+s = 
+
+    "independence"
+
+>> extractBetween(s,3,8)
+
+ans = 
+
+    "depend"
