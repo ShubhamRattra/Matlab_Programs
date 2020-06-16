@@ -1,0 +1,25 @@
+>> bday = datetime(2000,3,20)
+
+bday = 
+
+  datetime
+
+   20-Mar-2000
+
+>> bday + years(20)
+
+ans = 
+
+  datetime
+
+   19-Mar-2020 20:24:00
+
+>> bday + calyears(20)
+
+ans = 
+
+  datetime
+
+   20-Mar-2020
+
+>> 
