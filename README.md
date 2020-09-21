@@ -1,2 +1,2 @@
 # Matlab_Programs
-These are basic matlb programs which I practised while learning matlab.
+These are basic matlab programs which I practised while learning matlab.
